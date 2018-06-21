@@ -1,0 +1,349 @@
+body {
+	font-family: 'Ropa Sans', sans-serif;
+  padding-top: 50px;
+}
+
+p {
+  padding: 0px 15%;
+}
+
+a, li {
+  transition-property: color, background-color;
+  transition-duration: 0.75s;
+  /* Firefox 4 */
+  -moz-transition-property: color, background-color;
+  -moz-transition-duration: 0.75s;
+  /* Safari and Chrome */
+  -webkit-transition-property: color, background-color;
+  -webkit-transition-duration: 0.75s;
+  /* Opera */
+  -o-transition-property: color, background-color;
+  -o-transition-duration: 0.75s;
+}
+
+a:hover, li:hover {
+  text-decoration: none;
+  transition-property: color, background-color;
+  transition-duration: 0.25s;
+  /* Firefox 4 */
+  -moz-transition-property: color, background-color;
+  -moz-transition-duration: 0.25s;
+  /* Safari and Chrome */
+  -webkit-transition-property: color, background-color;
+  -webkit-transition-duration: 0.25s;
+  /* Opera */
+  -o-transition-property: color, background-color;
+  -o-transition-duration: 0.25s;
+}
+
+.link-blue {
+  color: #3498db;
+}
+
+.link-blue:hover {
+  color: #0665A2;
+}
+
+hr.faded {
+  clear: both;
+  float: none;
+  height: 1px;
+  margin: 25px 25px;
+  border: none; 
+  background: #ddd;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      right bottom,
+      color-stop(0, rgb(255,255,255)),
+      color-stop(0.1, rgb(221,221,221)),
+      color-stop(0.9, rgb(221,221,221)),
+      color-stop(1, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+      left center,
+      rgb(255,255,255) 0%,
+      rgb(221,221,221) 10%,
+      rgb(221,221,221) 90%,
+      rgb(255,255,255) 100%
+  );
+}
+
+.img-circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.landing {
+	background-color: #5a016d;
+	color: #fafafa;
+}
+
+.heading {
+  font-size: 52px;
+  line-height: 52px;
+  padding: 25px 0px;
+}
+
+.page-title {
+	font-family: 'Stalemate', cursive;
+	font-size: 124px;
+	line-height: 100px;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.center {
+	text-align: center;
+}
+
+.purple {
+	background-color: #5a016d;
+	color: #fafafa;
+}
+
+.navbar-inner .brand {
+  font-family: 'Great Vibes', cursive;
+  font-size: 52px;
+  margin-left: 5px;
+}
+
+.navbar-inner li a {
+  font-size: 16px;
+}
+
+#content {
+  position: relative;
+}
+
+#home {
+  margin-top: 25px;
+}
+
+#overlay {
+  z-index: 5;
+  position: absolute;
+  font-family: 'Stalemate', cursive;
+  color: #fafafa;
+}
+
+#overlay h1 {
+  font-size: 96px;
+  line-height: 100px;
+  padding-top: 40%;
+}
+
+#overlay h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 48px;
+}
+
+.block {
+  padding: 25px 0px;
+}
+
+#wedding .span6 h1 {
+  font-family: 'Stalemate', cursive;
+  font-size: 52px;
+}
+
+.thumbnail {
+  border: none;
+}
+
+/****************************** CONTACT ***************************/
+#contact {
+  background-image: url('images/sitting-bw.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 600px;
+  text-align: center;
+  font-family: 'Stalemate', cursive;
+  line-height: 50px;
+  padding-top: 10%;
+  color: #fafafa;
+}
+
+#contact h1 {
+  padding: 0px 50px;
+  font-size: 48px;
+}
+
+#contact small {
+  font-size: 32px;
+}
+
+#contact .btn {
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+#rsvpModal #myModalLabel {
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+}
+
+#rsvpModal .modal-body {
+  text-align: center;
+}
+/****************************** CONTACT ***************************/
+
+footer {
+  padding-top: 25px;
+  text-align: center;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
+
+footer h2 {
+  font-family: 'Great Vibes', cursive;
+}
+
+footer a {
+  color: #3498db;
+}
+
+footer a:hover {
+  color: #932fb6;
+}
+
+/****************************** Proposal modal *******************************/
+.landing #lock-btn {
+	margin-top: 10%;
+	margin-bottom: 25px;
+}
+
+.landing #myModal {
+	color: #3f3f3f;
+}
+
+#wrong {
+  color: #9d261d;
+  font-size: 14px;
+}
+
+#hint {
+  font-size: 12px;
+}
+/****************************** Proposal modal *******************************/
+
+/****************************** Proposal page ********************************/
+#proposal-body {
+  background-image: url('images/sunset-GreenBay.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 0px;
+}
+
+#proposal {
+  width: 100%;
+  position: absolute;
+   
+  /*Centering Method 2*/
+  top: 25%;
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  line-height: 50px;
+  color: #fafafa;
+}
+
+#proposal p, #featuredContent p {
+  font-size: 64px;
+}
+
+#proposal small {
+  font-size: 30px;
+}
+
+#proposal btn {
+  font-size: 54px;
+  padding: 25px;
+}
+
+#featuredContent, #map {
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  color: #fafafa;
+  font-size: 64px;
+  line-height: 30px;
+}
+
+#featuredContent p {
+  position: relative;
+  top: 25%;
+  line-height: 65px;
+  padding: 0px 50px;
+}
+
+#map {
+  margin-top: 5%;
+}
+
+#map-link a, #map-link a:hover {
+  font-family: 'Amaranth', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#map p {
+  line-height: 50px;
+}
+/****************************** Proposal page ********************************/
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  body {
+    padding-top: 0px;
+  }
+  .navbar-fixed-top {
+    display: none;
+  }
+  #myCarousel {
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -25px;
+  }
+  .carousel-control {
+    display: none;
+  }
+  #overlay h1 {
+    font-size: 56px;
+    line-height: 56px;
+    padding-top: 20%;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  #overlay h2 {
+    font-size: 36px;
+  }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  body {
+    padding-top: 0px;
+  }
+  .navbar-fixed-top {
+    display: none;
+  }
+  .carousel-control {
+    display: none;
+  }
+  #overlay h1 {
+    font-size: 36px;
+    line-height: 36px;
+    padding-top: 20%;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  #overlay h2 {
+    font-size: 24px;
+  }
+}
